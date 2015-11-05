@@ -1,0 +1,5 @@
+#/bin/sh
+cd target
+Jar="$(ls xmlcmd*.jar)"
+java -jar $Jar "$@"
+cd ..
